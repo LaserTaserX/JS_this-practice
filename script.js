@@ -38,6 +38,8 @@ const person = {
     //       The format should be: "Hi, I'm [name] and I'm [age] years old."
     //       Do NOT hard-code "Alex" or "17" — use this!
 
+    return `Hi, I'm ${this.name} and I'm ${this.age} years old.`
+
   }
 };
 
